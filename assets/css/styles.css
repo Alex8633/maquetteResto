@@ -1,0 +1,299 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Dancing';
+    src: url("../fonts/DancingScript-VariableFont_wght.ttf");
+}
+
+/* classes utilitaires */
+
+.section-gap {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container-flex-row {
+    display: flex;
+}
+
+.container-flex-column {
+    display: flex;
+    flex-direction: column;
+}
+/* */
+body {
+    font-family: 'Roboto-Regular', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    height: 100vh;
+    background-image: url("../img/bg-slider-06.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    padding: 0 1rem;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    line-height: 70px;
+    margin: 0;
+    color: white;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.log-social-icon i {
+    line-height: 70px;
+    color: white;
+    padding: 0 1.5rem;
+}
+
+nav ul li a {
+    font-weight: 900;
+    line-height: 70px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem 0.7rem;
+    color: white;
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+}
+
+/* header logo style */
+
+.header-logo {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 28%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.welcome {
+    margin: 0;
+    color: #D7AF95;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    font-family: 'Dancing', sans-serif;
+}
+
+.resto {
+    color: white;
+    font-weight: 900;
+    font-size: 3rem;
+    letter-spacing: 0.4rem;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header-text {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.5rem;
+    word-spacing: 0.7rem;
+}
+
+.header-logo-png {
+    margin: 2rem 0;
+}
+
+/* section discover style */
+
+.discover-container {
+    background-color: whitesmoke;
+    display: flex;
+}
+
+.discover-content {
+    box-sizing: border-box;
+    margin: 2rem;
+    width: 49%;
+    border: orange dashed 1px;
+}
+
+.discover-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+}
+
+.discover-image {
+    width: 49%;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.discover-discover {
+    font-family: 'Dancing', sans-serif;
+    color: #D7AF95;
+    margin: 3rem 0 0 0;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.ourStore {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.text-discover {
+    text-align: center;
+    line-height: 2;
+}
+
+.avatar {
+    border-radius: 50%;
+    background-color: white;
+}
+
+.name {
+    margin: 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.fonction {
+    color: lightgrey;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Style discover menu */
+
+.discover-menu-header {
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #21201E;
+}
+
+.discover-menu-container {
+    position: relative;
+}
+
+.discover-menu-image {
+    height: 65%;
+}
+
+.discover-menu-title {
+    margin: 3rem 0;
+}
+
+.discover-menu-header nav {
+    width: 60%;
+}
+
+.discover-menu-header nav ul {
+    padding-bottom: 7rem;
+    margin: auto;
+}
+
+.logo-discover {
+    margin-bottom: 2rem;
+}
+
+/* style du tableau menu */
+
+.menu-table {
+    background-color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    top: 23%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.menu-row {
+    display: flex;
+}
+
+.menu-content {
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1rem 2rem;
+}
+
+.menu-content:before {
+    content : "";
+    position: absolute;
+    left    : 10%;
+    bottom  : 0;
+    height  : 1px;
+    width   : 80%;  /* or 100px */
+    border-bottom:1px dotted lightgray;
+}
+
+.menu-content-wrapper {
+    display: flex;
+}
+
+.menu-item {
+    border-radius: 50%;
+    padding: 2rem;
+}
+
+
+.title-menu {
+    text-transform: uppercase;
+    margin: 25% 0 0 0;
+}
+
+.menu-ingrediant {
+    margin: 0;
+}
+
+/* section reservation style */
+.reservation{
+    background-color: #21201E;
+}
+
+.reservation-container {
+    width: 60%;
+}
