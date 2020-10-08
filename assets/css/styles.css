@@ -23,6 +23,13 @@
     display: flex;
     flex-direction: column;
 }
+
+.title-style {
+    font-family: 'Dancing', sans-serif;
+    font-size: 2rem;
+    color: #D7AF95;
+    text-align: center;
+}
 /* */
 body {
     font-family: 'Roboto-Regular', sans-serif;
@@ -260,13 +267,14 @@ nav ul li a {
     margin: 0 1rem 2rem;
 }
 
+/* soulignement des menus */
 .menu-content:before {
     content : "";
     position: absolute;
     left    : 10%;
     bottom  : 0;
     height  : 1px;
-    width   : 80%;  /* or 100px */
+    width   : 80%;
     border-bottom:1px dotted lightgray;
 }
 
@@ -292,8 +300,46 @@ nav ul li a {
 /* section reservation style */
 .reservation{
     background-color: #21201E;
+    color:white;
 }
 
 .reservation-container {
     width: 60%;
+    margin: auto;
+}
+
+.reservation-horaire {
+    width: 33.33%;
+    background-color: #161513;
+    align-items: center;
+}
+
+.text-reservation {
+    color: white;
+    text-align: center;
+    margin-top: 0;
+}
+
+.day-week {
+    font-size: 2rem;
+    color: #6F6042;
+    font-family: 'Dancing', sans-serif;
+    margin-bottom: 0;
+}
+
+.reservation-formulaire {
+    width: 66.66%;
+    background-color:#FBFAF6;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.formulaire-items {
+    padding: 1rem;
+    width: 95%;
+}
+
+.formulaire-item {
+    color: #A9A69E;
+    width: 30%;
 }
