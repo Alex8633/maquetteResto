@@ -405,3 +405,110 @@ nav ul li a {
 }
 
 /* Our event */
+.our-event {
+    background-color: #21201E;
+}
+
+.our-event .container-flex-column {
+    align-items: center;
+}
+
+.our-event-container {
+    width: 60%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin: auto;
+    grid-gap: 2rem;
+}
+
+.item-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    /*align-items: center;*/
+    width: 60%;
+    background-color: #FBFAF6;
+}
+
+.title-item-event {
+    font-size: 2rem;
+    font-weight: 200;
+    margin-bottom: 1rem;
+}
+
+.horaire-event {
+    letter-spacing: 0.1rem;
+    color: gray;
+}
+
+.buy-ticket {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.item1 {
+    display: flex;
+}
+.item2 {
+    position: relative;
+    background-image: url("../img/event-03.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: span 2;
+}
+
+.item2-container {
+    position: absolute;
+    width: 85%;
+    height: 85%;
+    background-color: #FBFAF6;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.item3 {
+    display: flex;
+}
+
+.image-container-event {
+    position: relative;
+    width: 40%;
+}
+
+.juillet8 {
+    padding: 0 2.5rem;
+    color: white;
+    position: absolute;
+    background-color: #21201E;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.days {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.month {
+    margin-top: 0;
+}
+
+.juillet8-2 {
+    position: absolute;
+    padding: 0 2.5rem;
+    color: white;
+    background-color: #21201E;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container-2-text {
+    padding: 0 1rem;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+}
