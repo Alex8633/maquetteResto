@@ -10,6 +10,11 @@
 
 /* classes utilitaires */
 
+.inter-section-gap {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
 .section-gap {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -380,3 +385,23 @@ nav ul li a {
 .gallery .container-flex-column {
     align-items: center;
 }
+
+.gallery .discover-discover {
+    margin-top: 0;
+}
+
+.img-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2%;
+    grid-row-gap: 2%;
+}
+
+.button-gallery {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+}
+
+/* Our event */
