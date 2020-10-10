@@ -30,6 +30,7 @@
     color: #D7AF95;
     text-align: center;
 }
+
 /* */
 body {
     font-family: 'Roboto-Regular', sans-serif;
@@ -269,13 +270,13 @@ nav ul li a {
 
 /* soulignement des menus */
 .menu-content:before {
-    content : "";
+    content: "";
     position: absolute;
-    left    : 10%;
-    bottom  : 0;
-    height  : 1px;
-    width   : 80%;
-    border-bottom:1px dotted lightgray;
+    left: 10%;
+    bottom: 0;
+    height: 1px;
+    width: 80%;
+    border-bottom: 1px dotted lightgray;
 }
 
 .menu-content-wrapper {
@@ -298,9 +299,9 @@ nav ul li a {
 }
 
 /* section reservation style */
-.reservation{
+.reservation {
     background-color: #21201E;
-    color:white;
+    color: white;
 }
 
 .reservation-container {
@@ -322,24 +323,60 @@ nav ul li a {
 
 .day-week {
     font-size: 2rem;
-    color: #6F6042;
+    color: #AF6828;
     font-family: 'Dancing', sans-serif;
     margin-bottom: 0;
 }
 
 .reservation-formulaire {
     width: 66.66%;
-    background-color:#FBFAF6;
+    background-color: #FBFAF6;
     align-items: center;
     /* justify-content: center; */
 }
 
+.reservation-formulaire .title-style {
+    margin-bottom: 0.2rem;
+}
+
+.reservation-formulaire .online {
+    margin: 0 1rem;
+    text-align: center;
+    font-size: 3rem;
+    color: #21201E;
+}
+
 .formulaire-items {
     padding: 1rem;
-    width: 95%;
+    width: 90%;
+    justify-content: space-around;
 }
 
 .formulaire-item {
     color: #A9A69E;
     width: 30%;
+    border-bottom: 1px solid gray;
+}
+
+.button {
+    margin-top: 40px;
+    letter-spacing: 0.4rem;
+    text-decoration: none;
+    color: white;
+    padding: 1rem 1.5rem;
+    background-color: #21201E;
+    border-radius: 20px;
+}
+
+/* our gallery style */
+.gallery {
+    background-color: #21201E;
+}
+
+.gallery-paragraph {
+    color: white;
+}
+
+.gallery .container-flex-column {
+    align-items: center;
 }
