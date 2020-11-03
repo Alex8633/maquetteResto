@@ -314,10 +314,17 @@ nav ul li a {
     margin: auto;
 }
 
+.horaire.title-style {
+    margin-bottom: 0;
+}
+
 .reservation-horaire {
     width: 33.33%;
     background-color: #161513;
     align-items: center;
+    padding: 1.5rem;
+    outline: 1px dashed #393027;
+    outline-offset: -20px;
 }
 
 .text-reservation {
@@ -326,11 +333,19 @@ nav ul li a {
     margin-top: 0;
 }
 
+.text-reservation.open {
+    font-size: 2rem;
+}
+
 .day-week {
     font-size: 2rem;
     color: #AF6828;
     font-family: 'Dancing', sans-serif;
     margin-bottom: 0;
+}
+
+.day-week.numero {
+    font-size: 1.5rem;
 }
 
 .reservation-formulaire {
@@ -380,6 +395,9 @@ nav ul li a {
 
 .gallery-paragraph {
     color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 0;
 }
 
 .gallery .container-flex-column {
@@ -406,6 +424,8 @@ nav ul li a {
 
 /* Our event */
 .our-event {
+    padding-bottom: 20rem;
+    position: relative;
     background-color: #21201E;
 }
 
@@ -511,4 +531,150 @@ nav ul li a {
     position: absolute;
     text-align: center;
     top: 30%;
+}
+
+/*div temoignage russel*/
+
+.temoignage-russel {
+    position: absolute;
+    margin-top: 6rem;
+    width: 60%;
+    background-color: #FBFAF6;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.temoignage-russel-container {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-russel {
+    text-align: center;
+}
+
+.russel-container-paragraph {
+    display: flex;
+    align-items: center;
+}
+
+.russel-container-paragraph i {
+    padding: 0 1rem;
+}
+
+.russel-container-paragraph p {
+    margin-top: 80px;
+    padding: 0 1rem;
+    line-height: 180%;
+}
+
+.profession {
+    text-align: center;
+    color: #AF6828;
+}
+
+.avatar-russel {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-avatar-russel {
+    border-radius: 50%;
+}
+
+.list-russel ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.list-russel ul li {
+    margin: 0 1rem;
+    padding: 0.3rem;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.circle-item1 {
+    background-color: black;
+}
+
+/* section map */
+
+.map {
+     height: 600px;
+    /*overflow: hidden;*/
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/CapturemapResto.png") no-repeat;
+    background-size: cover;
+
+}
+
+/*.circle-container {*/
+/*    position:absolute;*/
+/*    height: 60px;*/
+/*    width: 60px;*/
+/*    left: 50%;*/
+/*    top: 45%;*/
+/*    transform: translateX(-50%);*/
+/*}*/
+
+/*footer style*/
+
+footer {
+    display: flex;
+}
+
+.footer-left {
+    width: 50%;
+    background-color: #000000;
+}
+
+.footer-right {
+    width: 50%;
+    background-color: #21201E;
+}
+
+.footer-paragraph {
+    font-size: 1.5rem;
+    padding-left: 40%;
+    padding-right: 2rem;
+    color: #372f28;
+}
+
+.discover-discover.footer-title {
+    text-align: left;
+    padding-left: 40%;
+}
+
+.footer-right-title {
+    margin-top: 3rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+input[type="text"] {
+    font-size: 1.8rem;
+    background-color: #21201E;
+}
+
+.reseau-sociaux {
+    display: flex;
+    align-items: center;
+}
+
+.reseau-sociaux i {
+    color: lightgray;
+    margin-top: 22px;
+    padding: 0 1rem;
+}
+
+.footer-right-contener{
+    padding-left: 10%;
 }
